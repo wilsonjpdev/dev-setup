@@ -26,6 +26,7 @@ Este repositório tem como objetivo **centralizar e padronizar todas as automaç
 Execute o script de setup no diretório do projeto:
 
 ```bash
+chmod +x install.sh
 ./install.sh
 ```
 
