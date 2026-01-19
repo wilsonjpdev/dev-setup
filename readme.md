@@ -38,23 +38,6 @@ Esse script irá:
 
 ---
 
-## Por que usar link simbólico?
-
-O link simbólico permite que o `Taskfile.yml` deste repositório seja usado **como um Taskfile global**, possibilitando rodar comandos `task` a partir de qualquer diretório.
-
-Exemplo:
-
-```bash
-cd ~
-task setup
-task build
-task test
-```
-
-As tarefas executadas serão sempre as definidas neste projeto.
-
----
-
 ## Uso básico
 
 Listar todas as tarefas disponíveis:
